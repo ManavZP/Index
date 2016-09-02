@@ -1,0 +1,64 @@
+
+	h1{
+	color:green;	
+	}
+	
+	p{
+	color:blue;
+	}	
+	
+	
+							
+	
+	#navbar {
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		background-color: black;
+		width:500px;
+		overflow: hidden;
+		border: 1px solid orange;
+		position:fixed;
+		top: 0;
+		width:100%;
+		
+	}
+	
+	.navitem {
+	float: left;
+	
+	text-align: center;
+	/* border-bottom: 1px solid orange*/ 
+	}
+	
+	.navitem a {
+	display:block;
+	padding: 8px 16px;
+	color: orange;
+	text-decoration: none;
+	}
+	
+	.navitem:last-child {
+		border-bottom: none;
+	}
+	
+	/* give local style to the page we are on */
+	
+	.navitem a.active{
+	background-color: gray;
+	color: black;
+	
+	}
+	
+	.navitem a:hover:not(.active){
+	/* change background color to something contrasting and text color that can be read */
+	
+	background-color: orange;
+	color: black;
+	
+	}
+	
+	#main {
+	margin-top:30px;
+	padding:20px;
+	}
